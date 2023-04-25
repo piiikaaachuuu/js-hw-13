@@ -13,7 +13,7 @@ rectangle.prototype = new figure();
 rectangle.prototype.area = function () {
   return this.width * this.height;
 };
-var rect = new rectangle(5, 3);
+let rect = new rectangle(5, 3);
 console.log(rect.area());
 
 
@@ -26,5 +26,5 @@ square.prototype = new figure();
 square.prototype.area = function () {
   return this.width * this.height;
 };
-var squar = new square(4);
+let squar = new square(4);
 console.log(squar.area());
